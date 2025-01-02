@@ -33,8 +33,8 @@ function reverseString($string)
 // one by one
 foreach($strings as $string)
 {  
-$result = vowelCount($string);
-$reverseStr = reverseString($string);
+$result = vowelCount($string); // vowel count
+$reverseStr = reverseString($string); // reverse string
 echo "Original String : " . $string . "," . " Vowel Count : " . $result . "," . " Reverse String : " . $reverseStr . "<br>";
 }
 
